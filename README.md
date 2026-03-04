@@ -1,10 +1,8 @@
 # Multicurve SABR-FMM
 
-This repository contains a Python implementation of a **Multicurve Forward Market Model (FMM)** with **SABR Stochastic Volatility** as per Lyashenko, Mercurio (2019). It features a pricer for **Bermudan Swaptions** using Least Squares Monte Carlo (LSM).
+This repository contains a Python implementation of a **Forward Market Model (FMM)** with **SABR Stochastic Volatility** as per Lyashenko, Mercurio (2019). It features a pricer for **Bermudan Swaptions** using Least Squares Monte Carlo (LSM).
 
 ## Features
-
-* **Multicurve Framework:** Explicit separation of OIS (discounting) and Coumpounded-OIS (forward projection) curves with deterministic basis spreads.
 
 * **SABR Stochastic Volatility:** Each forward rate follows a (Normal) SABR process with $\beta = 0$. The model includes a calibration engine using Hagan's Normal Volatility expansion.
 
